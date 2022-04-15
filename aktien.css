@@ -86,7 +86,24 @@ h1 {
 	text-transform: uppercase;
 	width: 15rem;
 	padding: 1.5rem;
+}
+.btn4 {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	left: 50%;
+	top: 70%;
+	transform: translateX(-50%);
+	text-decoration: none;
+	color: #fff;
+	border: #fff solid 0.2rem;
+	font-size: 1rem;
+	font-weight: bold;
 
+	text-transform: uppercase;
+	width: 15rem;
+	padding: 1.5rem;
 }
 .split.left .btn:hover{
 	background-color: var(--left-btn-hover-color);
@@ -106,6 +123,12 @@ h1 {
 	color: white;
 	text-shadow: 3px 3px 4px #777;
 }
+.split.left .btn4:hover{
+	background-color: var(--left-btn-hover-color);
+	border-color: var(--left-btn-hover-color);
+	color: white;
+	text-shadow: 3px 3px 4px #777;
+}
 .split.right .btn:hover{
 	background-color: var(--right-btn-hover-color);
 	border-color: var(--right-btn-hover-color);
@@ -115,6 +138,10 @@ h1 {
 	border-color: var(--right-btn-hover-color);
 }
 .split.right .btn3:hover{
+	background-color: var(--right-btn-hover-color);
+	border-color: var(--right-btn-hover-color);
+}
+.split.right .btn4:hover{
 	background-color: var(--right-btn-hover-color);
 	border-color: var(--right-btn-hover-color);
 }
