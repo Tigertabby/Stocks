@@ -1,0 +1,36 @@
+
+body {
+  padding-top: 1.5rem;
+}
+.navbar {
+      background-color: #010A4F;
+}
+
+main {
+
+        background-image: url('pastel1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
+.greeting {
+        color: #7B69C0;
+        text-shadow: 1px 1px 2px black;
+
+}
+
+.info {
+    background-color: rgba(123,105,192, 0.5);
+
+}
+
+.add {
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px white;
+}
+
+.btn-secondary {
+    background-color:#7B69C0;
+    border-color: #7B69C0;
+}
